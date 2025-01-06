@@ -7,12 +7,18 @@ import { SiHackerrank, SiIbm } from "react-icons/si";
 
 function EducationAndExperience() {
   return (
-    <section id="education-and-experience" className="mt-20 mx-4 lg:mx-20 flex flex-col md:flex-row gap-4 md:gap-2">
+    <><h6 className="text-black text-left mx-5 lg:mx-20 my-20 text-3xl font-bold mb-8 dark:text-gray-200">
+    cd /home/exp
+  </h6>
+  
+  
+    <section id="education-and-experience" className="mt-20 mx-4 lg:mx-20 my-20 flex flex-col md:flex-row gap-4 md:gap-2">
+      
       {/* =========== EDUCATION =========== */}
-      <div className="w-full md:w-[80%]">
+      <div className="w-full md:w-[80%] my-10">
         {/* =========== EDUCATION TITLE =========== */}
         <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center">
-          <FaLandmark className="text-xl text-red-800 dark:text-red-500" />
+          <FaLandmark className="text-xl text-black-800 dark:text-white-500" />
           Education
         </h4>
 
@@ -55,7 +61,7 @@ function EducationAndExperience() {
 
         {/* =========== CERTIFICATES TITLE =========== */}
         <h4 className="text-xl dark:text-white mt-6 font-bold flex gap-2 items-center">
-          <PiCertificateFill className="text-2xl text-red-800 dark:text-red-500" />
+          <PiCertificateFill className="text-2xl text-black-800 dark:text-white-500" />
           Certificates
         </h4>
 
@@ -165,7 +171,7 @@ function EducationAndExperience() {
       <div className="w-full">
         {/* =========== EXPERIENCE TITLE =========== */}
         <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center">
-          <FaBuildingUser className="text-2xl text-red-800 dark:text-red-500" />
+          <FaBuildingUser className="text-2xl text-black-800 dark:text-white-500" />
           Experience
         </h4>
 
@@ -234,6 +240,7 @@ function EducationAndExperience() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

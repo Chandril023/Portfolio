@@ -11,6 +11,7 @@ import Footer from "../components/sections/Footer.jsx";
 import EducationAndExperience from "../components/sections/EducationAndExperience.jsx";
 import Skills from "../components/sections/Skills.jsx";
 
+
 function Homepage() {
   const { theme, switchTheme } = useContext(AppContext);
   const location = useLocation();
@@ -25,7 +26,7 @@ function Homepage() {
         <ToggleTheme switchTheme={switchTheme} />
 
         <Hero />
-        <Projects />
+        <Projects/>
 				<EducationAndExperience />
         <Skills />
         <Contact />

@@ -1,11 +1,11 @@
 const info = {
     // ============ MAIN DETAILS ============
     main: {
-        name: "Daniel Shan Balico",
-        description: "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
-        role: "Full-Stack Developer",
+        name: "Chandril Adhikary",
+        description: "Turning caffeine and code into your next big idea—let's make magic happen!",
+        role: "cd /home/dev",
         photo: "../photo.webp",
-        email: "danielshan.balico@gmail.com",
+        email: "work.chandril@gmail.com",
     },
 
     // ============ SOCIAL LINKS ============
@@ -71,14 +71,14 @@ const info = {
     // ============ EDUCATION ============
     education: [
         {
-            school: "Technological University of the Philippines",
-            degree: "Bachelor of Science in Computer Science",
-            duration: "2020 - 2024",
+            school: "Maulana Abul Kalam Azad University of Technology, West Bengal",
+            degree: "Bachelor of Technology in Computer Science and Engineering",
+            duration: "2021 - 2025",
             image: "tup.webp"
         },
         {
-            school: "STI College",
-            degree: "ICT in Mobile App and Web Development",
+            school: "SOuth Point High School",
+            degree: "STEM",
             duration: "2018 - 2020",
             image: "sti.webp"
         },
@@ -87,9 +87,9 @@ const info = {
     // ============ EXPERIENCE ============
     experience: [
         {
-            position: "Full-Stack Developer Intern",
-            company: "Centralized Cloud Computing International, Inc.",
-            duration: "Mar 2024 - Jun 2024 (3 Months)",
+            position: "Lead Developer",
+            company: "Grwm365 Inc.",
+            duration: "Mar 2024 - Present (Ongoing)",
             image: "ccci.webp",
             descriptions: [
                 "Completed an extensive training program in full-stack web development.",
@@ -97,16 +97,7 @@ const info = {
                 "Mentored by senior developers on best practices and code optimization.",
             ]
         },
-        {
-            position: "Work Immersion - Web Developer",
-            company: "St. Peter Velle Technical Training Center",
-            duration: "Nov 2019 - Dec 2019 (1 Month)",
-            image: "spvttc.webp",
-            descriptions: [
-                "Developed Python scripts to automate document score calculations.",
-                "Developed a company website as part of an ICT-related work immersion program."
-            ]
-        },
+      
     ],
 
     // ============ CERTIFICATES ============
@@ -174,7 +165,7 @@ const info = {
     },
 
     // ============ FOOTER ============
-    footer: "© 2024 Daniel Shan Balico. All Rights Reserved"
+    footer: "© 2024 Chandril Adhikary. All Rights Reserved"
 }
 
 export default info

@@ -36,6 +36,12 @@ function Hero() {
                 Projects
               </a>
               <a
+                href="#education-and-experience"
+                className="px-6 py-3 border border-black hover:bg-red-800 hover:text-white hover:border-red-800 dark:border-white font-medium transition-all duration-300"
+              >
+                Experience
+              </a>
+              <a
                 href="#contact"
                 className="px-6 py-3 hover:text-red-800 dark:hover:text-red-500 transition-all duration-300 flex gap-3 hover:gap-4"
               >

@@ -15,12 +15,12 @@ function Footer({ theme }) {
       {/* =========== GITHUB BUTTON =========== */}
       <GitHubButton
         className="self-center"
-        href="https://github.com/dsbalico/dsfolio"
+        href="https://github.com/Chandril023"
         data-color-scheme={theme}
         data-icon="octicon-star"
         data-size="large"
         data-show-count="true"
-        aria-label="Star dsbalico/dsfolio on GitHub"
+        aria-label="Star Chandril023 on GitHub"
       >
         Star on Github
       </GitHubButton>

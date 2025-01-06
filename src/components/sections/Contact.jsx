@@ -3,25 +3,24 @@ import user_info from "../../data/user_info.js";
 import { FaSquareXTwitter, FaLinkedin } from "react-icons/fa6";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import ContactForm from "./ContactForm.jsx";
 
 function Contact() {
   return (
     <section id="contact" className="mt-16 pt-12 px-6 lg:px-24">
       {/* =========== TITLE =========== */}
-      <h4 className="text-5xl font-bold text-zinc-900 dark:text-zinc-100">
-        Let&apos;s Get in Touch:{" "}
-        <span className="text-red-800 dark:text-red-500">
-          Ways to Connect with Me
-        </span>
+      {/* Heading */}
+      <h4 className="text-black text-left text-3xl font-bold mb-8 dark:text-gray-200">
+        cd /home/Connect
       </h4>
 
       {/* =========== DESCCRIPTION =========== */}
-      <p className="mt-8 leading-7 text-base text-zinc-600 dark:text-zinc-300 font-light">
-        {user_info.contact.description}
-      </p>
+     
+   
 
       {/* =========== LINKS =========== */}
       <div className="mt-12">
+      <ContactForm/>
         {/* =========== FACEBOOK =========== */}
         <a
           href={user_info.socials.facebook}
