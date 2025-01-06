@@ -21,10 +21,10 @@ function Homepage() {
   }, [location.pathname]);
 
   return (
-    <div className="bg-zinc-100 dark:bg-zinc-900">
-      <div className="xl:w-[1200px] md:mx-auto h-full border-x border-zinc-100 dark:border-zinc-800 bg-white dark:bg-zinc-950">
-        <ToggleTheme switchTheme={switchTheme} />
+    <div className="bg-zinc-100 dark:bg-zinc-900 overflow-x-hidden">
+     <div className="w-full max-w-[1200px] mx-auto h-full border-x border-zinc-100 dark:border-zinc-800 bg-white dark:bg-zinc-950">
 
+        <ToggleTheme switchTheme={switchTheme} />
         <Hero />
         <Projects/>
 				<EducationAndExperience />
