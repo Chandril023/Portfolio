@@ -37,27 +37,28 @@ function Hero() {
           <p className="mt-6 dark:text-zinc-300 text-base font-light leading-7">
             {user_info.main.description}
           </p>
-          <div className="flex gap-2 mt-6">
-            <a
-              href="#projects"
-              className="px-6 py-3 border border-black hover:bg-red-800 hover:text-white hover:border-red-800 dark:border-white font-medium transition-all duration-300"
-            >
-              Projects
-            </a>
-            <a
-              href="#education-and-experience"
-              className="px-6 py-3 border border-black hover:bg-red-800 hover:text-white hover:border-red-800 dark:border-white font-medium transition-all duration-300"
-            >
-              Experience
-            </a>
-            <a
-              href="#contact"
-              className="px-6 py-3 hover:text-red-800 dark:hover:text-red-500 transition-all duration-300 flex gap-3 hover:gap-4"
-            >
-              <span className="self-center font-medium">Contact</span>
-              <IoIosArrowForward className="self-center" />
-            </a>
-          </div>
+          <div className="flex flex-wrap gap-2 mt-6">
+  <a
+    href="#projects"
+    className="px-6 py-3 border border-black hover:bg-red-800 hover:text-white hover:border-red-800 dark:border-white font-medium transition-all duration-300"
+  >
+    Projects
+  </a>
+  <a
+    href="#education-and-experience"
+    className="px-6 py-3 border border-black hover:bg-red-800 hover:text-white hover:border-red-800 dark:border-white font-medium transition-all duration-300"
+  >
+    Experience
+  </a>
+  <a
+    href="#contact"
+    className="px-6 py-3 hover:text-red-800 dark:hover:text-red-500 transition-all duration-300 flex gap-3 hover:gap-4 w-full md:w-auto"
+  >
+    <span className="self-center font-medium">Contact</span>
+    <IoIosArrowForward className="self-center" />
+  </a>
+</div>
+
         </div>
   
         {/* Right Image Content */}
