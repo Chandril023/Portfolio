@@ -1,12 +1,14 @@
 import user_info from "../../data/user_info.js";
 import { IoIosArrowForward } from "react-icons/io";
+import Icons from "./icons.jsx";
 
 function Hero() {
   return (
+    <>
     <section
     id="hero"
-    className="w-full pb-28 pt-24 sm:pt-28 md:pt-44 px-6 lg:px-24 flex justify-center items-center overflow-hidden"
-  >
+    className="flex flex-row justify-left items-left my-20 mx-5 lg:mx-0 ">
+
     <div className="max-w-[1200px] w-full flex flex-col md:flex-row gap-6 overflow-hidden">
       {/* Tooltip & Image */}
       <div className="flex-shrink-0">
@@ -57,10 +59,11 @@ function Hero() {
     <span className="self-center font-medium">Contact</span>
     <IoIosArrowForward className="self-center" />
   </a>
-</div>
-
-        </div>
   
+</div>
+<Icons/>
+        </div>
+    
         {/* Right Image Content */}
         <div className="hidden lg:block max-w-[480px] flex-shrink-0">
           <img
@@ -71,8 +74,10 @@ function Hero() {
         </div>
       </div>
     </div>
+    
   </section>
   
+        </>
   );
 }
 

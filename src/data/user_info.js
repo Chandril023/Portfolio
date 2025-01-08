@@ -11,61 +11,57 @@ const info = {
     // ============ SOCIAL LINKS ============
     socials: {
         twitter: "https://twitter.com/dsbalico",
-		github: "https://github.com/dsbalico",
-		linkedin: "https://linkedin.com/in/dsbalico",
-		instagram: "https://instagram.com/dsbalico",
-		facebook: "https://facebook.com/dsbalico",
+        github: "https://github.com/Chandril023",
+        linkedin: "https://linkedin.com/in/dsbalico",
+        instagram: "https://instagram.com/dsbalico",
+        facebook: "https://facebook.com/dsbalico",
     },
 
     // ============ PROJECTS ============
     projects: [
         {
-			title: "Pseudocode to C",
-			description: "Pseudocode to C is a web app that translates pseudocode into C code, aiding in the transition from high-level logic to a lower-level language.",
-            technologies: "React, Tailwind, Flask, SpaCy",
-			github: "https://github.com/dsbalico/pseudocode-to-c",
-            link: "https://pseudocode-to-c.netlify.app/"
-		},
-
+            title: "Grwm365",
+            description: "A digital product Saas platform designed to help offline businesses transition seamlessly to the online world. Provides tools for business management, customer engagement, and online presence building.",
+            technologies: "Next.js, TailwindCSS, MongoDB, Docker",
+            github: "https://github.com/Chandril023/grwm365",
+            link: "https://grwm365.vercel.app", // Update the link if required
+        },
         {
-			title: "YouShare",
-			description: "Developed to learn full-stack web development using Nuxt3, Express, and PostgreSQL in fulfillment of my internship requirements.",
-			technologies: "Nuxt, Tailwind, Express, PostgreSQL",
-			github: "https://github.com/dsbalico/YouShare",
-            link: "https://github.com/dsbalico/YouShare"
-		},
-
+            title: "Photo365",
+            description: "A customizable digital product built for  events, portfolio management offering seamless integration with social media platforms.",
+            technologies: "Next.js, TailwindCSS, AWS",
+            github: "https://github.com/Chandril023/photo365",
+            link: "https://photo365.vercel.app", // Update the link if required
+        },
         {
-			title: "Draw & Classify",
-			description: "Draw & Classify is a web application designed to test my machine learning model, which classifies drawn letters, digits, or shapes.",
-			technologies: "React, Tailwind, Tensorflow",
-			github: "https://github.com/dsbalico/letter-digit-shape-classification",
-            link: "https://letterdigitshape-classification.netlify.app/"
-		},
-
-		{
-			title: "Chatroom",
-			description: "Chatroom is a simple online chatting web application where you can create chat rooms and have a fun conversation with a group of people.",
-			technologies: "React, Tailwind, Firebase",
-			github: "https://github.com/dsbalico/chatroom",
-            link: "https://thechatroom.netlify.app/"
-		},
-
-		{
-			title: "Sudoku Solver",
-			description: "Sudoku Solver is a web application that can generate or solve sudoku problems using simulated annealing, an optimization algorithm.",
-			technologies: "React, Tailwind, TypeScript",
-			github: "https://github.com/dsbalico/sudoku-solver-using-simulated-annealing",
-            link: "https://sudoku-solver-sa.netlify.app/"
-		},
-
-		{
-			title: "Probability Pick",
-			description: "Probability Pick is a PCSO Lotto Number Generator that calculates the likelihood of selecting winning numbers based on historical draw data.",
-			technologies: "React, Tailwind, Flask",
-			github: "https://github.com/dsbalico/pcso-lotto-number-generator",
-            link: "https://probability-pick.netlify.app/"
-		},
+            title: "QueryPulse.AI",
+            description: "Enables conversational interaction with databases by converting English questions into SQL queries for accessible data retrieval.",
+            technologies: " React,FastAPI,Gemini LLM",
+            github: "https://github.com/Chandril023/QueryPulse.AI",
+            link: "https://querypulse.netlify.app/",
+        },
+        {
+            title: "ZQG Esports-Organization Management Application",
+            description:
+                "Developed an intuitive front end and implemented CRUD backend operations, optimizing response time by over 50%.",
+            technologies: "React, Spring Boot-3, Hibernate, MySQL",
+            github: "https://github.com/yourrepo", // Replace with your GitHub link
+            link: "https://zeroquantumgravity.netlify.app", // Replace with your project link
+        },
+        {
+            title: "Semantic Segmentation of Satellite Images",
+            description: "Performs semantic segmentation on satellite images using deep learning techniques.",
+            technologies: "Python, TensorFlow, Deep Learning",
+            github: "https://github.com/Chandril023/Semantic-Segmentation-Satellite-Images",
+            link: "https://satellitesegmentation.com",
+        },
+        {
+            title: "HealthLink Medical Appointment Booking App",
+            description: "A full-stack application for seamless medical appointment bookings.",
+            technologies: "React, FastAPI, MongoDB, Docker",
+            github: "https://github.com/Chandril023/HealthLink-App",
+            link: "https://healthlink.netlify.app",
+        },
     ],
 
     // ============ EDUCATION ============
@@ -74,98 +70,77 @@ const info = {
             school: "Maulana Abul Kalam Azad University of Technology, West Bengal",
             degree: "Bachelor of Technology in Computer Science and Engineering",
             duration: "2021 - 2025",
-            image: "tup.webp"
+            image: "tup.webp",
         },
         {
-            school: "SOuth Point High School",
+            school: "South Point High School",
             degree: "STEM",
             duration: "2018 - 2020",
-            image: "sti.webp"
+            image: "sti.webp",
         },
     ],
 
     // ============ EXPERIENCE ============
     experience: [
         {
-            position: "Lead Developer",
+            position: "CEO & Lead Developer",
             company: "Grwm365 Inc.",
             duration: "Mar 2024 - Present (Ongoing)",
-            image: "ccci.webp",
+            image: "https://grwm365.vercel.app/_next/image?url=%2Fimages%2Flogo%2F2.png&w=256&q=75",
             descriptions: [
-                "Completed an extensive training program in full-stack web development.",
-                "Actively contributed to the ongoing development of a web application.",
-                "Mentored by senior developers on best practices and code optimization.",
-            ]
+                "Founded and led Grwm365 Inc., building digital products tailored for businesses.",
+                "Spearheaded initiatives to help offline businesses transition seamlessly to online platforms.",
+                "Managed a team of developers, ensuring timely delivery of high-quality solutions.",
+                "Defined product strategies and oversaw the end-to-end development lifecycle.",
+                "Collaborated with clients to understand their needs and deliver customized solutions.",
+            ],
         },
-      
+        {
+            position: "Systems Engineer Prime (Upcoming)",
+            company: "Tata Consultancy Services (TCS)",
+            duration: "Upcoming",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdUIhQCTegyuo6ZuTmrG8m2Qt73AXaVN9z2w&s",
+            descriptions: [
+                "Selected for the role of Systems Engineer Prime at TCS, starting in August 2025.",
+                "Anticipated responsibilities include designing, developing, and maintaining scalable software systems.",
+                "Will contribute to enterprise-level solutions for global clients across diverse industries.",
+                "Excited to join a team focused on innovation and technological excellence.",
+            ],
+        },
     ],
+    
 
     // ============ CERTIFICATES ============
     certificates: [
         {
-            title: "Foundations of Cybersecurity Certificate",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.coursera.org/account/accomplishments/records/SF2PPLNVTH6R",
+            title: "Generative AI with Large Language Models",
+            description: "Provided by Coursera & Authorized by DeepLearning.AI",
+            icon: "deeplearning",
+            link: "https://coursera.org/verify/deeplearning-ai-cert-link",
         },
         {
-            title: "Git and GitHub Essentials",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.credly.com/badges/fa00026a-4db5-4269-ab4f-340f5382ac03",
+            title: "AWS Cloud Practitioners Essentials",
+            description: "Provided by Coursera & Authorized by AWS",
+            icon: "aws",
+            link: "https://coursera.org/verify/aws-cert-link",
         },
         {
-            title: "Crash Course on Python Certificate",
-            description: "Provided by Coursera & Authorized by Google",
-            icon: "google",
-            link: "https://www.coursera.org/account/accomplishments/verify/S9773NBEK4S6"
+            title: "Machine Learning",
+            description: "Provided by Coursera & Authorized by Stanford University",
+            icon: "stanford",
+            link: "https://coursera.org/verify/stanford-ml-cert-link",
         },
-        {
-            title: "Technical Support Fundamentals Certificate",
-            description: "Provided by Coursera & Authorized by Google",
-            icon: "google",
-            link: "https://www.coursera.org/account/accomplishments/verify/P9EH5HNYRESZ"
-        },
-        {
-            title: "Introduction to Web Development with HTML, CSS, JavaScript Certificate",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.credly.com/badges/7b88eb00-e1f9-4ae6-be2a-3b2ae8983c44"
-        },
-        {
-            title: "Introduction to Cloud Computing Certificate",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.credly.com/badges/514b694a-8dc4-418d-9af4-61908dc29ca8"
-        },
-        {
-            title: "Django Application Development with SQL and Databases Certificate",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.credly.com/badges/a36dd8a3-1050-4c4e-bcef-97b39babf55e"
-        },
-        {
-            title: "Front-End Developer (React) Certificate",
-            description: "Provided by HackerRank",
-            icon: "hackerrank",
-            link: "https://www.hackerrank.com/certificates/631ac3acf267"
-        },
-        {
-            title: "Software Engineer Certificate",
-            description: "Provided by HackerRank",
-            icon: "hackerrank",
-            link: "https://www.hackerrank.com/certificates/efdbdd44eb7d"
-        }
     ],
 
     // ============ CONTACT ============
     contact: {
         title: "Let's Get in Touch: Ways to Connect with Me",
-        description: "Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at danielshan.balico@gmail.com. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. Finally, if you prefer to connect on social media, you can connect with me using the social media links below.",
+        description:
+            "Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at work.chandril@gmail.com. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. Finally, if you prefer to connect on social media, you can connect with me using the social media links below.",
     },
 
     // ============ FOOTER ============
-    footer: "© 2024 Chandril Adhikary. All Rights Reserved"
-}
+    footer: "© 2025 Chandril Adhikary. All Rights Reserved",
+};
 
-export default info
+export default info;
