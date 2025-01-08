@@ -1,35 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import { CiLink } from "react-icons/ci";
 import projectInfo from './projectinfo';
-
-const Project = ({ title, description, technologies, link, github }) => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const projectDetails = projectInfo[title];
-
-  // Disable body scroll when modal is open
-  useEffect(() => {
-    if (isModalOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'auto';
-    }
-
-    // Cleanup the effect when the component is unmounted
-    return () => {
-      document.body.style.overflow = 'auto';
-    };
-  }, [isModalOpen]);
-
-  // Modal component defined inline
-  const Modal = ({ children }) => {
+ const Modal = ({ children }) => {
     if (!isModalOpen) return null;
 
     return (
       <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center p-4">
-        <div className="bg-white dark:bg-zinc-900 rounded-lg max-w-2xl w-full max-h-[90vh] overflow-hidden relative py-2">
+        <div className="overflow-y bg-white dark:bg-zinc-900 rounded-lg max-w-2xl w-full max-h-[90vh] overflow-hidden relative py-2">
           <button
             onClick={() => setIsModalOpen(false)}
-            className="absolute top-4 right-4 text-zinc-500 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-200 z-10"
+            className="absolute top-4 right-4 text-zinc-500 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-200"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +25,7 @@ const Project = ({ title, description, technologies, link, github }) => {
             </svg>
           </button>
           <div className="p-6">
-            <div className="md:h-[480px] md:overflow-y-auto scroll-smooth">
+            <div className="md:h-[480px] md:overflow-y-scroll scroll-smooth">
               {/* Project Title with Icon */}
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-3xl">{projectDetails?.icon}</span>
@@ -137,56 +115,4 @@ const Project = ({ title, description, technologies, link, github }) => {
       </div>
     );
   };
-
-  return (
-    <>
-      <div 
-        onClick={() => setIsModalOpen(true)}
-        className="hover:bg-zinc-100 hover:dark:bg-zinc-900 transition-all duration-300 p-6 md:rounded-xl cursor-pointer"
-      >
-        <div className="flex gap-2 overflow-x-scroll py-2">
-          {technologies.split(",").map((tech, index) => (
-            <span
-              className="inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500"
-              key={index}
-            >
-              {tech}
-            </span>
-          ))}
-        </div>
-        
-        <h3 className="font-bold text-lg text-zinc-700 dark:text-zinc-300 mt-4">
-          {title}
-        </h3>
-        
-        <p className="leading-7 text-zinc-500 dark:text-zinc-300 font-light text-base mt-4">
-          {description}
-        </p>
-
-        <div className="flex gap-6 text-zinc-600 dark:text-zinc-300 font-medium">
-          <a 
-            href={link}
-            onClick={(e) => e.stopPropagation()} 
-            className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300"
-          >
-            <CiLink className="text-2xl self-center" />
-            <span className="text-xs self-center">View Project</span>
-          </a>
-          
-          <a 
-            href={github}
-            onClick={(e) => e.stopPropagation()} 
-            className="flex gap-2 mt-4 hover:text-red-800 hover:dark:text-red-500 cursor-pointer transition-all duration-300"
-          >
-            <CiLink className="text-2xl self-center" />
-            <span className="text-xs self-center">View Github</span>
-          </a>
-        </div>
-      </div>
-
-      <Modal />
-    </>
-  );
-};
-
-export default Project;
+  export default Modal;

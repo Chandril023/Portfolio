@@ -27,8 +27,11 @@ const ContactForm = () => {
       const result = await response.json();
       if (result.success) {
         console.log("Form submitted successfully:", result);
+        alert("Form submitted successfully!");
+        window.location.reload();
       } else {
         console.error("Form submission error:", result);
+        alert("Error!");
       }
     } catch (error) {
       console.error("Error submitting form:", error);

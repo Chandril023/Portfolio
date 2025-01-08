@@ -22,7 +22,7 @@ const info = {
         {
             title: "Grwm365",
             description: "A digital product Saas platform designed to help offline businesses transition seamlessly to the online world. Provides tools for business management, customer engagement, and online presence building.",
-            technologies: "Next.js, TailwindCSS, MongoDB, Docker",
+            technologies: "Next.js, TailwindCSS, Docker",
             github: "https://github.com/Chandril023/grwm365",
             link: "https://grwm365.vercel.app", // Update the link if required
         },
